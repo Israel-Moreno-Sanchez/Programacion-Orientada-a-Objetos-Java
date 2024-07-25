@@ -1,0 +1,89 @@
+@startuml
+!theme vibrant
+interface Personal{
+  +checarEntrada()
+  +trabajar()
+  +horaDeComida()
+  +cobrar()
+  +checarSalida()
+}
+
+class Persona implements Personal{
+-nombre: String
+-altura: short
+-edad: short
+-sueldo: double
+-trabajando: boolean
+
++getNombtre()
++mostrarNombre()
++setNombre()
++trabajar()
++cobrar()
++checar()
+
+}
+
+class Comerciante{
+
+-trabajando: boolean
++trabajar()
++cobrar()
++alimentarse()
++checar()
+
+}
+
+Persona <|-- Comerciante
+
+
+class Panadero{
+
+-trabajando: boolean
++trabajar()
++cobrar()
++alimentarse()
++checar()
+
+}
+
+Persona <|-- Panadero
+
+
+class Jardinero{
+
+-trabajando: boolean
++trabajar()
++cobrar()
++alimentarse()
++checar()
+
+}
+
+Persona <|-- Jardinero
+
+class Constructor{
+
+-trabajando: boolean
++trabajar()
++cobrar()
++alimentarse()
++checar()
+
+}
+
+Persona <|-- Constructor
+
+
+class Soldado{
+
+-trabajando: boolean
++trabajar()
++cobrar()
++alimentarse()
++checar()
+
+}
+
+Persona <|-- Soldado
+@enduml
