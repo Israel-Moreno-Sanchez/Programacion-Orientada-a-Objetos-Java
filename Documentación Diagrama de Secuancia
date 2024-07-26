@@ -1,0 +1,38 @@
+@startuml
+participant Main
+participant Panadero
+participant Soldado
+participant Jardinero
+participant Constructor
+participant Comerciante
+
+Main -> Panadero:checarEntrada()
+Main -> Panadero:trabajar()
+Main -> Panadero:horaDeComida()
+Main -> Panadero:cobrar()
+Main -> Panadero:checarSalida()
+
+Main -> Soldado:checarEntrada()
+Main -> Soldado:trabajar()
+Main -> Soldado:horaDeComida()
+Main -> Soldado:cobrar()
+Main -> Soldado:checarSalida()
+
+Main -> Jardinero:checarEntrada()
+Main -> Jardinero:trabajar()
+Main -> Jardinero:horaDeComida()
+Main -> Jardinero:cobrar()
+Main -> Jardinero:checarSalida()
+
+Main -> Constructor:checarEntrada()
+Main -> Constructor:trabajar()
+Main -> Constructor:horaDeComida()
+Main -> Constructor:cobrar()
+Main -> Constructor:checarSalida()
+
+Main -> Comerciante:checarEntrada()
+Main -> Comerciante:trabajar()
+Main -> Comerciante:horaDeComida()
+Main -> Comerciante:cobrar()
+Main -> Comerciante:checarSalida()
+@enduml
