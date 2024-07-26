@@ -1,0 +1,31 @@
+@startuml
+object panadero1 {
+nombre = "Francisco Perez"
+edad = 28
+salario = 260
+}
+@enduml
+
+object soldado1 {
+nombre = "Francisco Perez"
+edad = 24
+salario = 230
+}
+object constructor1 {
+nombre = "Juan Perez"
+edad = 24
+salario = 500
+}
+object jardinero1 {
+nombre = "Carlos"
+edad = 25
+salario = 250
+}
+object comerciante1 {
+nombre = "Eleuterio Martinez"
+edad = 20
+salario = 190
+}
+
+
+@enduml
